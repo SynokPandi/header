@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+button{
+    border: none;
+}
+body{
+    background: linear-gradient(
+        to right, black 52.5%, #57B8FF 52.5%
+    );
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 209px;
+}
+.icon{
+    padding-top: 7px;
+}
+.tabs{
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+.tabs-ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.tabs-link{
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.tabs-link:hover{
+    color: #FAC422;
+}
+.tabs li{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+.basket{
+    background: none;
+}
+.basket-img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+}
+.contact{
+    background: none;
+}
+.main-menu{
+    padding-left: 150px;
+    padding-right: 60px;
+    padding-bottom: 250px;
+}
+.main-text{
+    width: 700px;
+}
+.social-nav{
+    display: flex;
+    justify-content: space-around;
+    transform: rotate(270deg);
+    font-size: 11px;
+}
+.social-ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 870px;
+    left: 480px;
+}
+.social-tabs-link{
+    margin-right: 80px;
+    text-decoration: none;
+    color: #80858F;
+}
+.social-tabs-link:hover{
+color: #FFFFFF;
+}
+.player{
+    right: 250px;
+    bottom: 200px;
+    position: absolute;
+}
+.company-ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    color: #57B8FF;
+}
+.future-of-espots{
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.description{
+    width: 600px;
+    padding-top: 15px;
+}
+.text-descrition{
+    color: #999999;
+    font-size: 18px;
+}
+.buttons-main{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    padding-top: 53px;
+}
+.button-link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.explore-more{
+    margin-right: 74px;
+}
+.none-background{
+    padding-top: 0;
+}
+.button-link{
+    padding-right: 34px;
+    padding-left: 34px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.button-link:hover{
+    padding-right: 34px;
+    padding-left: 34px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    background-color: #57B8FF;
+}
